@@ -1,4 +1,4 @@
-
+![Alt text](pamba river fish zone.png)
 # Fishing-Zone-Pediction using decision tree algorithm in ML and plotting it in map
 Identification of  fishing zones using machine learning, based on physical and chemical properties of the water.
 ## Description
