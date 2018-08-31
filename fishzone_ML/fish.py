@@ -7,6 +7,8 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 from sklearn import tree
 from sklearn.metrics import precision_recall_curve
+import webbrowser
+
 
 np.random.seed(40)
 td = pd.read_csv('sample_nan.csv')
@@ -162,7 +164,8 @@ for i in range(0, len(data)):
 
 # Save it as html
 m.save('keralafish.html')
-
+print("\t\t\tPLOTTING MAP....")
+webbrowser.open('keralafish.html')
 
 #print (y_test) #actual labels that is if we knew
 
