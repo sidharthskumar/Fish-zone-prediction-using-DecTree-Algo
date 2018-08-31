@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_2b0bfc7cf6f444829c33c84b995bf13e {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_2b0bfc7cf6f444829c33c84b995bf13e" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_2b0bfc7cf6f444829c33c84b995bf13e = L.map(
+        'map_2b0bfc7cf6f444829c33c84b995bf13e', {
+        center: [20, 0],
+        zoom: 2,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_03f5c3f92c53407dbee67c2b971672c5 = L.tileLayer(
+        'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_2b0bfc7cf6f444829c33c84b995bf13e);
+    
+        var marker_4c424ce2633d459e96f8488065b0b24a = L.marker(
+            [11.258753, 75.780411],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_2b0bfc7cf6f444829c33c84b995bf13e);
+        
+    
+            var popup_44d3fce5295d4608ab2600f845747ec8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c8bbc403bebd430995ae06a9e3cf15a7 = $('<div id="html_c8bbc403bebd430995ae06a9e3cf15a7" style="width: 100.0%; height: 100.0%;">kozhikode</div>')[0];
+                popup_44d3fce5295d4608ab2600f845747ec8.setContent(html_c8bbc403bebd430995ae06a9e3cf15a7);
+            
+
+            marker_4c424ce2633d459e96f8488065b0b24a.bindPopup(popup_44d3fce5295d4608ab2600f845747ec8)
+            ;
+
+            
+        
+    
+        var marker_69f6c8b37a2f4a1b91ec8f2c9cc269fe = L.marker(
+            [9.38, 76.81],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_2b0bfc7cf6f444829c33c84b995bf13e);
+        
+    
+            var popup_f29e278de9c24a5d8478d18ca99d1526 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_93b7e9b3973649feb63a269d273ea61b = $('<div id="html_93b7e9b3973649feb63a269d273ea61b" style="width: 100.0%; height: 100.0%;">pamba</div>')[0];
+                popup_f29e278de9c24a5d8478d18ca99d1526.setContent(html_93b7e9b3973649feb63a269d273ea61b);
+            
+
+            marker_69f6c8b37a2f4a1b91ec8f2c9cc269fe.bindPopup(popup_f29e278de9c24a5d8478d18ca99d1526)
+            ;
+
+            
+        
+</script>
