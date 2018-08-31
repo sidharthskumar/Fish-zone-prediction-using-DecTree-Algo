@@ -1,4 +1,5 @@
 ![Alt text](pamba river fish zone.png)
+
 # Fishing-Zone-Pediction using decision tree algorithm in ML and plotting it in map
 Identification of  fishing zones using machine learning, based on physical and chemical properties of the water.
 ## Description
@@ -11,11 +12,11 @@ Enter the test data on test.csv with name,lat,lon,other chemical properties . Th
 ```
 Python 3.2 or higher
 
-pip install sklearn
-pip install pandas
-pip instll numpy
-pip intall tensorflow
-pip install keras
-pip install folium
+pip3 install sklearn
+pip3 install pandas
+pip3 instll numpy
+pip3 intall tensorflow
+pip3 install keras
+pip3 install folium
 ```
 
