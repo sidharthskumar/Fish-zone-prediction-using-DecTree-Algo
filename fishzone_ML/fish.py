@@ -156,33 +156,14 @@ data=pd.DataFrame(maploc,columns=['name','lat','lon'],index=None)
 print(data)
 
 # Make an empty map
-m = folium.Map(location=[20, 0], tiles="Mapbox Bright", zoom_start=2)
+m = folium.Map(location=[11.25,75.78], tiles="stamentoner", zoom_start=6)
 
 # I can add marker one by one on the map
 for i in range(0, len(data)):
     folium.Marker([data.iloc[i]['lat'], data.iloc[i]['lon']], popup=data.iloc[i]['name']).add_to(m)
 
 # Save it as html
+
 m.save('keralafish.html')
-print("\t\t\tPLOTTING MAP....")
+print("\n\t\t\tPLOTTING MAP....")
 webbrowser.open('keralafish.html')
-
-#print (y_test) #actual labels that is if we knew
-
-#print (accuracy_score(pred, y_test)) #to test accuracy prediction accuracy
-
-
-
-###################################################################################################################
-#applymachinelearning using randomforest
-# from sklearn.model_selection import train_test_split
-# from sklearn.ensemble import RandomForestClassifier
-# X_train, X_test, y_train, y_test = train_test_split(X_norm,y, test_size=0.33, random_state=40)
-# #print("xtrain",X_train,"\nxtest",X_test,"\nytrain",y_test,"\nytest",y_test)
-# clfRF = RandomForestClassifier(random_state=0)
-# clfRF.fit(X_train, y_train)
-# predRF = clfRF.predict(X_test)
-#
-# print(accuracy_score(predRF,y_test))
-#
-# print(confusion_matrix(y_test,predRF))
