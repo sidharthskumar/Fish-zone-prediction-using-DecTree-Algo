@@ -16,7 +16,6 @@ pip3 install sklearn
 pip3 install pandas
 pip3 instll numpy
 pip3 intall tensorflow
-pip3 install keras
 pip3 install folium
 ```
 
